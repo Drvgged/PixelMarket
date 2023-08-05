@@ -2,36 +2,40 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.mainlog img {
+.mainlogo img {
     display: flex;
-    justify-content: flex-start;
-    position: relative;
-    height: 90px;
-    top: -37px;
-    right: 646px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-left: auto;
+    clip-path: circle(50% at 50% 50%);
 }
+
 
 .navigation {
     display: flex;
-    justify-content: end;
-    padding-right: 16px;
-    font-family: 'Amiga Forever', sans-serif;
-    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 14px;
     height: 50px;
+    font-family: 'Amiga Forever', sans-serif;
 }
 
 .navigation ul {
     display: flex;
     list-style: none;
-    padding-top: 5px;
+    align-items: center;
 }
 
-.navigation a {
+.nav-links a, .nav-links2 a {
     text-decoration: none;
     color: black;
-    margin: 12px;
+    margin: 15px;
 }
 
 .navigation li {
@@ -39,6 +43,108 @@
 }
 
 .navigation li:hover {
-    transform: scale(1.2);
-    transition: .2s ease all;
+    transform: scale(1.15);
+    transition: .3s ease all;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.burger.open {
+    position: relative;
+    z-index: 999;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 24px;
+}
+
+.burger.open:focus {
+    outline: none;
+}
+
+.burger.open:hover {
+    color: #000;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+}
+
+@media screen and (max-width: 668px) {
+    .header {
+        height: 50px;
+    }
+
+    .nav-links {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .nav-links.show {
+        visibility: visible;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 0 0 0;
+        margin: 0;
+        transition: visibility 0s, opacity 0.5s;
+        z-index: 1;
+    }
+
+    .nav-links.show .mainlogo {
+        visibility: hidden;
+    }
+
+    .nav-links2{
+        position: relative;
+        left: -200px;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .nav-links2.show2{
+        visibility: visible;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        background-color: #fff;
+        width: 100%;
+        border-bottom: 2px solid #000;
+        padding: 5px 0 10px 0;
+        margin: 0;
+        left: 0;
+        transition: visibility 0s, opacity 0.5s;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        padding-left: 15px;
+        bottom: 67px;
+    }
+
+    .burger.open {
+        display: none;
+    }
+
+    .burger.open .close-btn {
+        display: block;
+    }
 }

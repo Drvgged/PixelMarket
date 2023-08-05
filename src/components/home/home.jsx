@@ -1,6 +1,5 @@
 import React from "react";
-import LarioImage from '../img/lario-sprite.png';
-import OtherSprite from "../img/sprites.png";
+import spritesImport from "../../assets/sprites/spritesImports";
 import './home.css';
 import ReuCard from './product-reu';
 
@@ -18,21 +17,48 @@ function Home() {
             </div>
 
             <div className="product-gallery">
+                <a href="/products/among-sprite">
+                    <ReuCard
+                        img={ spritesImport.amongSprite }
+                        title="Among Us Sprite"
+                        price="$4.99"
+                        info="A pixel art of Among Us, my original creation"
+                    />
+                </a>
+
+                <a href="/products/other-sprite">
+                    <ReuCard
+                        img={ spritesImport.foxSprite }
+                        title='Other Sprite'
+                        price='$4.99'
+                        info='A pixel art of Other, my original creation'
+                    />
+                </a>
+
+                <a href="/products/gangster-sprite">
+                    <ReuCard
+                        img={ spritesImport.gangsterSprite }
+                        title="Gangster Sprite"
+                        price="$4.99"
+                        info="A pixel art of a Gangster, my original creation"
+                    />
+                </a>
+
                 <a href="/products/lario-sprite">
                     <ReuCard
-                        img={LarioImage}
+                        img={ spritesImport.larioSprite }
                         title='Lario Sprite'
                         price='$4.99'
                         info='A pixel art of Lario, my original creation'
                     />
                 </a>
 
-                <a href="/products/other-sprite">
+                <a href="/products/warrior-sprite">
                     <ReuCard
-                        img={ OtherSprite }
-                        title='Other Sprite'
-                        price='$4.99'
-                        info='A pixel art of Other, my original creation'
+                        img={ spritesImport.warriorSprite }
+                        title="Warrior Sprite"
+                        price="$4.99"
+                        info="A pixel art of a Woman Warrior, my original creation"
                     />
                 </a>
             </div>
