@@ -1,0 +1,141 @@
+@import url('https://fonts.cdnfonts.com/css/amiga-forever');
+@import url('https://fonts.cdnfonts.com/css/fonseca-rounded');
+
+a {
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 95vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../assets/img/heroBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Amiga Forever', sans-serif;
+    color: aliceblue;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 14px;
+}
+
+.hero h1, p {
+    background: transparent;
+}
+
+.title-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 20px;
+    font-family: 'Fonseca Rounded', sans-serif;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px 10px 50px 25px;
+}
+
+.product-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-gallery a:hover {
+    background-color: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    );
+}
+
+.reucard {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px 0 0;
+    background-color: white;
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    font-family: 'Rasa', sans-serif;
+}
+
+.title, .price, .info{
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.title {
+    margin-top: 5px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 40px;
+    bottom: 21px;
+    font-size: 14px;
+    margin-left: auto;
+    background-color: #737373;
+    border-radius: 5px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    max-width: 220px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 668px) {
+    .hero h1 {
+        display: flex;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 12px;
+        max-width: 300px;
+    }
+    
+    .title-gallery {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .product-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reucard {
+        margin-bottom: 10px;
+    }
+}

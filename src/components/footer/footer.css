@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    background-color: transparent;
+}
+
+.footer h2 {
+    background-color: transparent;
+}
