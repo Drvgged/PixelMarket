@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/amiga-forever');
+@import url('https://fonts.cdnfonts.com/css/hiskyflipper');
 @import url('https://fonts.cdnfonts.com/css/fonseca-rounded');
 
 a {
@@ -21,16 +21,17 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    font-family: 'Amiga Forever', sans-serif;
+    font-family: 'HISKYFLIPPERHI', sans-serif;
     color: aliceblue;
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 48px;
+    padding-bottom: 10px;
 }
 
 .hero p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .hero h1, p {
@@ -114,18 +115,19 @@ a {
     .hero h1 {
         display: flex;
         padding-left: 10px;
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .hero p {
-        font-size: 12px;
-        max-width: 300px;
+        font-size: 14px;
+        max-width: 200px;
     }
     
     .title-gallery {
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 30px;
     }
     
     .product-gallery{

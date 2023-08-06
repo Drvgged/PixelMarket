@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.ourteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.teamimg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 400px;
+    height: auto;
+}
+
+.ourteam p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+    margin-right: 25px;
+}
+
+.teamtitle {
+    font-size: 31px;
+    font-family: 'HISKYFLIPPERHI', sans-serif;
+}
+
+.peoplecard {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.workername,
+.workerage,
+.workerrole {
+    margin: 5px 0;
+}
+
+.workerphoto {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.workername {
+    max-width: 200px;
+}
+
+@media screen and (max-width: 750px) {
+    .peoplecard {
+        display: flex;
+        flex-direction: column;
+        columns: 2;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ourteam p {
+        padding: 10px 40px;
+    }
+
+    .ourteam img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .ourteam p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .ourteam img {
+        display: none;
+    }
+}
+

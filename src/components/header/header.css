@@ -20,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 5px;
     font-size: 14px;
     height: 50px;
     font-family: 'Amiga Forever', sans-serif;
@@ -138,6 +137,7 @@
         position: relative;
         padding-left: 15px;
         bottom: 67px;
+        width: 50px;
     }
 
     .burger.open {

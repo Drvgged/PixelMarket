@@ -23,7 +23,7 @@ function Header() {
                 <li><a href="/about">ABOUT US</a></li>
                 <li><a href="/products">PRODUCTS</a></li>
               </ul>
-
+            
               <div className="mainlogo">
                 <a href="/"><img src={ spritesImport.logoPixel } alt=""></img></a>
               </div>
