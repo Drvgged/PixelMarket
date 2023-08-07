@@ -23,8 +23,7 @@ Enumera los requisitos necesarios para utilizar y contribuir al proyecto. Incluy
 
 Clona este repositorio en tu máquina local utilizando Git:
 
-```bash 
-git clone https://github.com/tu-usuario/pixelsperfect.git```
+```bash git clone https://github.com/tu-usuario/pixelsperfect.git```
 
 Sustituye "tu-usuario" por tu nombre de usuario de GitHub.
 
@@ -32,8 +31,7 @@ Sustituye "tu-usuario" por tu nombre de usuario de GitHub.
 
 Ingresa al directorio del proyecto que acabas de clonar:
 
-```bash 
-cd pixelsperfect```
+```bash cd pixelsperfect```
 
 2- **Instalar las dependencias:**
 
@@ -45,8 +43,7 @@ Ejecuta el siguiente comando para instalar todas las dependencias del proyecto:
 
 Una vez que se hayan instalado las dependencias, inicia el servidor de desarrollo:
 
-```bash 
-npm start```
+```bash npm start```
 
 Esto abrirá automáticamente la aplicación en tu navegador predeterminado. También puedes acceder a ella a través de <http://localhost:3000>.
 
