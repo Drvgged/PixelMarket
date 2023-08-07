@@ -15,7 +15,11 @@ Breve descripción del proyecto en una o dos frases. Resalta su propósito y pri
 
 ## Requisitos
 
-Enumera los requisitos necesarios para utilizar y contribuir al proyecto. Incluye enlaces a las herramientas o recursos relevantes.
+[✔] Construir una landing page con una presentacion y una seccion de mas vendidos o similares.
+[✔] Contruir una pestaña de About Us con una presentacion + una imagen y una seccion de cards que presente a los desarrolladores.
+[] Construir una pestaña con un login simple pero funcional.
+[] Construir una pestaña de carrito funcional.
+[]
 
 ## Instalación
 
