@@ -3,7 +3,8 @@ import './App.css';
 import Footer from './components/footer/footer.jsx';
 import Header from './components/header/header';
 import Home from './components/home/home';
-import ContactUs from "./components/contact/ContactUs"
+import ContactUs from './components/contact/ContactUs'
+
 function App() {
   return (
     <Router>
