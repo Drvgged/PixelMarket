@@ -72,11 +72,7 @@
         justify-content: center;
         align-items: center;
     }
-
-    .ourteam p {
-        padding: 10px 40px;
-    }
-
+    
     .ourteam img {
         display: flex;
         justify-content: center;
