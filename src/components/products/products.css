@@ -1,0 +1,191 @@
+@import url('https://fonts.cdnfonts.com/css/amiga-forever');
+@import url('https://fonts.cdnfonts.com/css/fonseca-rounded');
+
+/* .prod{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../assets/img/heroBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Amiga Forever', sans-serif;
+    color: aliceblue;
+} */
+
+.prod-box-princ{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px 10px 50px 25px;
+}
+
+.box h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Amiga Forever', sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
+    letter-spacing: -2px;
+    color: rgb(255, 255, 255);
+    /* background-color: #737373; */
+    
+}
+
+.prod{
+    display: block;
+    font-family: 'Fonseca Rounded', sans-serif;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../assets/img/heroBackground.png);
+    /* background-image: url(https://images.alphacoders.com/937/937990.jpg); */
+    background-size: 122%;
+}
+
+.box{
+    display: block;
+    text-align: center;
+    /* margin-top: 70px;
+    margin-bottom: 70px; */
+}
+
+.box {
+    display: block;
+    text-align: center;
+}
+
+.prod-box-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px 10px 50px 25px;
+}
+
+.prod-box-2 img{
+    width: 20px;
+    height: 20px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.boxxing{
+    border: 5px solid rgb(61, 59, 59);
+    border-radius: 50px;
+    margin: 20px;
+    text-align: left;
+    background-color: white;
+    transition: transform .5s;
+}
+
+
+.boxxing:hover{
+    transform: scale(1.14);
+}
+
+.boxxing img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.title, .price, .info{
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.title {
+    margin-top: 5px;
+    display: inline-block;
+    padding-left: 3px;
+    position: relative;
+    
+    top: 4px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 40px;
+    bottom: 11px;
+    right: 5px;
+    font-size: 12px;
+    margin-left: auto;
+    background-color: #737373;
+    border-radius: 3px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    max-width: 250px;
+    margin: 5px;
+}
+
+
+
+/* A partir de acá la parte responsive */
+
+@media screen and (max-width: 668px) {
+    .prod h1 {
+        display: flex;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .prod{
+        display: flex;
+    
+        flex-direction: column;
+        height: 100%vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        font-family: 'Amiga Forever', sans-serif;
+        color: aliceblue;
+    }
+
+
+    .prod p {
+        font-size: 12px;
+        max-width: 300px;
+    }
+    
+    .title-gallery {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+
+    .boxxing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        bottom: 48px;
+        right: 0px;
+        font-size: 10px;
+        margin-left: auto;
+        background-color: #737373;
+        border-radius: 3px;
+        color: white;
+    }
+    
+    
+}
