@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './register.css';
 
 const Register = () => {
@@ -39,7 +39,7 @@ const Register = () => {
             <input type="checkbox" className='check'/>
           </label>
         </div>
-        <input type="submit" name="sign-in" value="Iniciar sesión" />
+        <input type="submit" name="sign-in" value="Register" />
       </form>
     </div>
     </body>

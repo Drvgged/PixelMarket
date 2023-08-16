@@ -17,7 +17,8 @@
     justify-content: flex-end;
     align-items: flex-end;
     width: 400px;
-    height: auto;
+    height: 215px;
+    padding-left: 20px;
 }
 
 .ourteam p {
@@ -30,9 +31,34 @@
     margin-right: 25px;
 }
 
-.teamtitle {
-    font-size: 31px;
+.teamtitle, .artistitle {
+    font-size: 30px;
     font-family: 'HISKYFLIPPERHI', sans-serif;
+    padding-bottom: 40px;
+}
+
+.anartist {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0 0 0;
+}
+
+.anartist p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+    margin-right: 25px;
+}
+
+.artistimg {
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: auto;
+    padding-right: 20px;
 }
 
 .peoplecard {
@@ -45,7 +71,7 @@
 }
 
 .card {
-    margin: 20px;
+    margin: 20px 20px 40px 20px;
 }
 
 .workername,
@@ -86,9 +112,22 @@
         justify-content: center;
         text-align: center;
         width: 100%;
+        margin: 0;
+    }
+
+    .anartist p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 15px;
     }
     
     .ourteam img {
+        display: none;
+    }
+
+    .artistimg {
         display: none;
     }
 }
