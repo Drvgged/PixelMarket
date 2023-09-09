@@ -1,0 +1,181 @@
+@import url('https://fonts.cdnfonts.com/css/amiga-forever');
+@import url('https://fonts.cdnfonts.com/css/fonseca-rounded');
+
+/* Acá le doy el fondo a toda la página con un nuevo div para no alterar
+al header */
+
+.page-complete{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../assets/img/heroBackground.png);
+
+}
+
+
+/* Acá empiezo a trabajar con el div de la imagen  */
+
+.contenedor .imgg{
+    width: 58%;
+    height: 50rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 4rem ;
+}
+
+.img-page-component{
+    display: inline;
+}
+
+
+/* Y acá ya empiezo a cambiar los componentes del componente general  */
+.page-component{
+    position: relative;
+    bottom: 750px;
+    left: 900px;
+    width: 30%;
+    color: aliceblue;
+    display: block;
+}
+
+.titlee{
+    font-size: 3rem;
+    font-family: 'Amiga Forever', sans-serif;
+}
+
+.descripcion{
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Fonseca Rounded', sans-serif;
+}
+.precio{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    
+    font-family: 'Fonseca Rounded', sans-serif;
+}
+.bio{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-family: 'Fonseca Rounded', sans-serif;
+}
+
+/* Acá defino las propiedades del button con el hover  */
+button{
+    width: 100%;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 24, 189);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 3rem;
+    transition: transform .5s;
+    font-family: 'Fonseca Rounded', sans-serif;
+}
+
+button:hover{
+    transform: scale(1.01);
+}
+
+/* daskdnaskdnaskd */
+
+.prod-box-princ{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px 10px 50px 25px;
+}
+
+.box h3{
+    margin-top: 19px;
+    margin-bottom: 20px;
+    font-family: 'Amiga Forever', sans-serif;
+    text-decoration: underline;
+    font-size: 25px;
+    letter-spacing: -2px;
+    color: rgb(255, 255, 255);
+    /* background-color: #737373; */
+    
+}
+
+.fooat{
+
+        display: block;
+        font-family: 'Fonseca Rounded', sans-serif;
+        /* position: relative; */
+        /* bottom: 520px; Ajusta el valor negativo según tu preferencia */
+}
+
+.box{
+    /* display: block; */
+    text-align: center;
+
+}
+
+
+
+.boxxing{
+    border: 5px solid rgb(61, 59, 59);
+    border-radius: 50px;
+    margin: 20px;
+    text-align: left;
+    background-color: white;
+    transition: transform .5s;
+}
+
+
+.boxxing:hover{
+    transform: scale(1.14);
+}
+
+.boxxing img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.title, .price, .info{
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.title {
+    margin-top: 5px;
+    display: inline-block;
+    padding-left: 3px;
+    position: relative;
+    top: 4px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 40px;
+    bottom: 11px;
+    right: 5px;
+    font-size: 12px;
+    margin-left: auto;
+    background-color: #737373;
+    border-radius: 3px;
+    color: white;
+}
+
+.info {
+    /* display: flex; */
+    text-align: center;
+    max-width: 250px;
+    margin: 5px;
+}
+
+
+
+@media screen {
+    
+}

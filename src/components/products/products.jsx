@@ -17,16 +17,15 @@ function Products() {
                                     img={ spritesImport.amongSprite }
                                     title="AMONG US SPRITE"
                                     price="$4.99"
-                                    
                                     info="A pixel art of Among Us, my original creation"
                                 />
                             </a>
                         </div>
                         <div className='boxxing'>
-                            <a href="/products/other-sprite">
+                            <a href="/products/foxSprite">
                                 <OwnProducts
                                     img={ spritesImport.foxSprite }
-                                    title='Other Sprite'
+                                    title='Fox Sprite'
                                     price='$4.99'
                                     info='A pixel art of Other, my original creation'
                                 />
@@ -275,7 +274,7 @@ function Products() {
                     </div>
                 </div>
             </div>
-        </>
+    </>
   )
 }
 
