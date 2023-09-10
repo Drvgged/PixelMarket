@@ -33,12 +33,13 @@
   
   .loginputBox input {
     width: 100%;
-    padding: 0.625rem 0;
+    padding: 0.625rem;
+    margin-top: 5px;
     font-size: 1rem;
     color: #fff;
     letter-spacing: 0.062rem;
     border: none;
-    border-bottom: 0.065rem solid #fff;
+    border-bottom: 5px solid #fff;
     outline: none;
     background: transparent;
     font-family: 'Amiga Forever', sans-serif;
@@ -46,7 +47,7 @@
   }
 
   input {
-    font-size: 0.70rem;
+    font-size: 0.70rem;=======
   }
  
   .loginputBox label {
@@ -54,7 +55,6 @@
     top: 0;
     left: 0;
     padding: 0.625rem 0;
-    font-size: 1rem;
     color: #fff;
     pointer-events: none;
     transition: 0.5s;
