@@ -8,6 +8,7 @@ const Login = () => {
       <form>
         <div className="loginputBox">
           <input
+          className='input'
             type="text"
             name="text"
             required
@@ -16,6 +17,7 @@ const Login = () => {
         </div>
         <div className="loginputBox">
           <input
+          className='input'
             type="password"
             name="password"
             required
@@ -24,7 +26,7 @@ const Login = () => {
           />
           <label className='loglabel'>Contraseña</label>
         </div>
-        <input className='loginputBox' type="submit" name="sign-in" value="Iniciar sesión" />
+        <input className='loginputBox input' type="submit" name="sign-in" value="Iniciar sesión" />
       </form>
       <p className='registerp'>¿No tienes una cuenta? <a className='registera' href="/register">Regístrate aquí</a></p>
     </div>
