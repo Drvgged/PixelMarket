@@ -17,50 +17,45 @@ function Home() {
             </div>
 
             <div className="product-gallery">
-                <a href="/products/among-sprite">
                     <ReuCard
+                        href="/products/among-sprite"
                         img={ spritesImport.amongSprite }
                         title="Among Us Sprite"
                         price="$4.99"
                         info="A pixel art of Among Us, my original creation"
                     />
-                </a>
 
-                <a href="/products/other-sprite">
                     <ReuCard
+                        href="/products/other-sprite"
                         img={ spritesImport.foxSprite }
-                        title='Other Sprite'
+                        title='Fox Sprite'
                         price='$4.99'
-                        info='A pixel art of Other, my original creation'
+                        info='A pixel art of Fox, my original creation'
                     />
-                </a>
 
-                <a href="/products/gangster-sprite">
                     <ReuCard
+                        href="/products/gangster-sprite"
                         img={ spritesImport.gangsterSprite }
                         title="Gangster Sprite"
                         price="$4.99"
                         info="A pixel art of a Gangster, my original creation"
                     />
-                </a>
 
-                <a href="/products/lario-sprite">
                     <ReuCard
+                        href="/products/lario-sprite"
                         img={ spritesImport.larioSprite }
                         title='Lario Sprite'
                         price='$4.99'
                         info='A pixel art of Lario, my original creation'
                     />
-                </a>
 
-                <a href="/products/warrior-sprite">
                     <ReuCard
+                        href="/products/warrior-sprite"
                         img={ spritesImport.warriorSprite }
                         title="Warrior Sprite"
                         price="$4.99"
                         info="A pixel art of a Woman Warrior, my original creation"
                     />
-                </a>
             </div>
         </>
     )
