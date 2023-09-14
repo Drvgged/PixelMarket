@@ -39,7 +39,6 @@ const Register = () => {
           </label>
         </div>
         <input type="submit" name="sign-in" value="Registrarse" />
-        <input type="submit" name="sign-in" value="Register" />
       </form>
     </div>
   );
