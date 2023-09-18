@@ -3,7 +3,6 @@ import './register.css';
 
 const Register = () => {
   return (
-    <body>
     <div className="principal">
       <h1>Crea tu cuenta</h1>
       <form>
@@ -13,7 +12,7 @@ const Register = () => {
             name="email"
             required
           />
-          <label>Correo</label>
+          <label className='reglabel'>Correo</label>
         </div>
         <div className="inputBox">
           <input
@@ -21,7 +20,7 @@ const Register = () => {
             name="text"
             required
           />
-          <label>Usuario</label>
+          <label className='reglabel'>Usuario</label>
         </div>
         <div className="inputBox">
           <input
@@ -31,7 +30,7 @@ const Register = () => {
             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
             title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
           />
-          <label>Contraseña</label>
+          <label className='reglabel'>Contraseña</label>
         </div>
         <div className='termycond'>
         <label>
@@ -39,10 +38,9 @@ const Register = () => {
             <input type="checkbox" className='check'/>
           </label>
         </div>
-        <input type="submit" name="sign-in" value="Register" />
+        <input type="submit" name="sign-in" value="Registrarse" />
       </form>
     </div>
-    </body>
   );
 };
 

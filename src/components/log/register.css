@@ -16,8 +16,14 @@
     background-position: center center;
     font-family: 'Amiga Forever', sans-serif;
     color: aliceblue;
+    overflow: hidden;
   }
   
+  .reglabel {
+    margin-left: 50px;
+    margin-top: -7px;
+  }
+
   form {
     margin-top: 40px;
   }
@@ -28,7 +34,7 @@
   }
   
   .inputBox input {
-    width: 100%;
+    width: 75%;
     padding: 0.625rem 0;
     font-size: 1rem;
     color: #fff;
@@ -38,7 +44,7 @@
     outline: none;
     background: transparent;
     font-family: 'Amiga Forever', sans-serif;
-    font-size: 1rem;
+    font-size: 0.70rem;
   }
   
  

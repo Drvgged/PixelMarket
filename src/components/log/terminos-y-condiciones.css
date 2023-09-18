@@ -1,25 +1,29 @@
-.principal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 95vh;
-    background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../../assets/img/heroBackground.png');
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center center;
-    font-family: 'Amiga Forever', sans-serif;
-    color: aliceblue;
-  }
-  h1 h2 p {
+.principalterm {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  font-family: 'Amiga Forever', sans-serif;
+  color: black;
+  margin-bottom: 34px;
+}
+
+  .texto {
     margin-top: 20px;
+    font-size: 1rem;
   }
+
+  .textop {
+    font-size: 0.80rem;
+  }
+
+  .textof {
+    margin-top: 10px;
+  }
+
   .h1titulo {
-    margin-top: 100px;
-  }
+    margin-top: 5px;
+    justify-content: center;
+    display: flex;
+}
